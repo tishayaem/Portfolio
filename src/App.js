@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './App.css';
-
+import Skills from './Skills';
 class App extends Component {
   render() {
     return (
@@ -11,6 +11,7 @@ class App extends Component {
             <h2 className="animated zoomInUp fast">Hello</h2><h2 className="animated zoomInDown delay-5s">I am Constantin Kalinin and this is my portfolio</h2>      
         </div>
         </header>
+          <Skills />
       </h1>
     );
   }
