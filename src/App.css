@@ -4,10 +4,13 @@
 
 
 .App-header {
-  background-color: #bcdbdf;
-  height: 150px;
-  padding: 20px;
-  color: #232931;
+  /* background-color: #bcdbdf;
+  height: 150px; */
+  color: #e01171;
+}
+
+#Greeting{
+  display: inline;
 }
 
 

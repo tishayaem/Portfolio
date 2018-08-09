@@ -5,14 +5,13 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <h1 className="App">
         <header className="App-header">   
-          "Hello, I am Constantin Kalinin and this is my portfolio"      
+         <div className="Greeting">
+            <h2 className="animated zoomInUp fast">Hello</h2><h2 className="animated zoomInDown delay-5s">I am Constantin Kalinin and this is my portfolio</h2>      
+        </div>
         </header>
-       <div>
-        
-       </div>
-      </div>
+      </h1>
     );
   }
 }
