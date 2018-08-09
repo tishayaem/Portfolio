@@ -2,20 +2,24 @@
   text-align: center;
 }
 
-
-.App-header {
-  font-size: 1em;
+.greeting {
+  font-size: 0.7em;
   color: #e01171;
+  
 }
 
-.skills.title {
+.skills {
+  padding: 7% 20% 20%;
+}
+
+.title {
   margin: 0px;
   font-family: "Helvetica Neue";
   font-size: 2em;
   font-weight: 100;
 }
 
-.skills.icons {
+.icons {
   margin-top: 5%;
   margin-bottom: 10%;
   margin-left: 20%;
@@ -35,10 +39,16 @@
 .skills-icon {
   color: rgb(0, 0, 0);
   flex: 1 1 0;
+  flex: 1;
   font-size: 150px;
   margin-top: 10%;
 }
 
+img {
+    border-radius: 30%;
+    width: 25%;
+    height: 25%;
+}
 
 
 

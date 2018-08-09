@@ -19,16 +19,22 @@ export default class Skills extends React.Component {
                         </div>
                         <div className="icons">
                             <span
-                            class="devicon-javascript-plain colored skills-icon wow jackInTheBox"
+                            class="devicon-wordpress-plain-wordmark colored skills-icon wow flipInY"
+                                data-wow-iteration="1"
+                                data-wow-offset="40"
+                                data-wow-delay=".5s"
+                            />
+                            <span
+                            class="devicon-javascript-plain colored skills-icon wow flipInY"
                                 data-wow-iteration="1"
                                 data-wow-offset="40"
                                 data-wow-delay=".5s"
                             />
                             <span
                                 class="devicon-react-original-wordmark colored skills-icon wow flipInY"
-                                data-wow-iteration="2"
-                                data-wow-offset="5"
-                                data-wow-delay="2.5s"
+                                data-wow-iteration="1"
+                                data-wow-offset="40"
+                                data-wow-delay="0.7s"
                             />
                             <span
                                 class="devicon-nodejs-plain-wordmark colored skills-icon wow flipInY"
