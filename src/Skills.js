@@ -13,13 +13,13 @@ export default class Skills extends React.Component {
             <div>
                     <div className="skills">
                         <div className="wow slideInLeft" data-wow-offset="10">
-                            <div className="skills-title skills-highlight">
+                            <div className="title skills-highlight">
                                 Skills
                             </div>
                         </div>
                         <div className="icons">
                             <span
-                                class="devicon-javascript-plain colored skills-icon wow flipInY"
+                            class="devicon-javascript-plain colored skills-icon wow jackInTheBox"
                                 data-wow-iteration="1"
                                 data-wow-offset="40"
                                 data-wow-delay=".5s"
