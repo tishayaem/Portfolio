@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from './photo.jpg';
+// import photo from './photo.jpg';
 import WOW from 'wowjs';
 
 export default class Photo extends React.Component {
@@ -13,7 +13,7 @@ componentDidMount() {
     render() {
         return(<div className="photo">
             <div className="wow rotateInDownRight">
-                <img src={photo} alt= " "/>
+                {/* <img src={photo} alt= " "/> */}
             </div>
         </div>
         )

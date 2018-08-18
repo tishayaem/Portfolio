@@ -12,18 +12,12 @@ export default class Skills extends React.Component {
         return(
             <div>
                     <div className="skills">
-                        <div className="wow slideInLeft" data-wow-offset="10">
+                        <div className="wow slideInLeft" data-wow-offset="10" data-wow-delay=".5s">
                             <div className="title skills-highlight">
                                 Skills
                             </div>
                         </div>
                         <div className="icons">
-                            <span
-                            class="devicon-wordpress-plain-wordmark colored skills-icon wow flipInY"
-                                data-wow-iteration="1"
-                                data-wow-offset="40"
-                                data-wow-delay=".5s"
-                            />
                             <span
                             class="devicon-javascript-plain colored skills-icon wow flipInY"
                                 data-wow-iteration="1"
@@ -59,6 +53,18 @@ export default class Skills extends React.Component {
                                 data-wow-iteration="1"
                                 data-wow-offset="40"
                                 data-wow-delay="1s"
+                            />
+                            <span
+                            class="devicon-ruby-plain-wordmark colored skills-icon wow flipInY"
+                                data-wow-iteration="1"
+                                data-wow-offset="40"
+                                data-wow-delay=".5s"
+                            />
+                            <span
+                            class="devicon-rails-plain-wordmark colored skills-icon wow flipInY"
+                                data-wow-iteration="1"
+                                data-wow-offset="40"
+                                data-wow-delay=".5s"
                             />
                         </div>
                     </div>
